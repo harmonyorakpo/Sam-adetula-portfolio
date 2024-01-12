@@ -13,8 +13,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 173, 15, 0.04); /* Adjust the opacity value */
+    background-color: rgba(255, 173, 15, 0.06); /* Adjust the opacity value */
     border-radius: 50%;
     z-index: -1; /* Ensure the pseudo-element is behind the content */
-    box-shadow: 0 0 180px 165px rgba(255, 173, 15, 0.04);/* Adjust the blur and opacity values */
+    box-shadow: 0 0 180px 165px rgba(255, 173, 15, 0.06);/* Adjust the blur and opacity values */
   }
