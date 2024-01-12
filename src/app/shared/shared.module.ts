@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BackButtonComponent, CompetitiveAnalysisComponent, ConclusionComponent, FooterComponent, FreelanceLandingPageComponent, FreelanceProductSummaryComponent, HeaderComponent, IterationsComponent, KickOffComponent, MeetTheUsersComponent, ModifiedIterationsComponent, ProductKeyFeaturesComponent, StyleGuideComponent, UserFlowComponent, WorkDetailsLandingPageComponent } from '.';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
+import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from '../home/home.component';
     ProductKeyFeaturesComponent,
     FreelanceLandingPageComponent,
     FreelanceProductSummaryComponent,
+    HeroSectionComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -39,6 +41,7 @@ import { HomeComponent } from '../home/home.component';
     ProductKeyFeaturesComponent,
     FreelanceLandingPageComponent,
     FreelanceProductSummaryComponent,
+    HeroSectionComponent,
   ],
 })
 export class SharedModule {}

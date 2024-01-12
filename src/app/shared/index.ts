@@ -13,3 +13,4 @@ export * from './components/product-key-features/product-key-features.component'
 export * from './components/style-guide/style-guide.component';
 export * from './components/user-flow/user-flow.component';
 export * from './components/work-details-landing-page/work-details-landing-page.component';
+export * from './components/hero-section/hero-section.component'
