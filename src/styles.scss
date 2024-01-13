@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./custom-styles";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -8,12 +9,52 @@
 
 html,
 body {
-  height: 100%;
+  // height: 100%;
 }
 
 body {
   margin: 0;
+  background-image: url("/assets/General assets/Background.svg"); // Update with your actual image file path
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
   background-color: #080808;
   color: #fff;
+
+  .header-bg-color {
+    background-color: rgba(8, 8, 8, 0.2);
+    backdrop-filter: blur(50px);
+  }
+
+  .footer-bg-color {
+    background-color: #080808;
+  }
+
+  .nav-text {
+    color: #808080;
+  }
+
+  .contact-links {
+    @apply hover:cursor-pointer hover:underline hover:font-semibold;
+  }
+
+  .hero-section-circle {
+    @apply w-96 h-80;
+  }
+
+  .cards {
+    @apply bg-black border-cardBorder rounded-3xl border-2;
+  }
+
+  .card-effect{
+    top: 0;
+    left:0;
+    background-color: rgba(255, 173, 15, 0.1); /* Adjust the opacity value */
+    border-radius: 50%;
+    box-shadow: 0 0 180px 165px rgba(255, 173, 15, 0.1);/* Adjust the blur and opacity values */
+
+
+  }
+
 }
