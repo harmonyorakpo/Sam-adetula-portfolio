@@ -18,25 +18,22 @@ export class FunComponent implements OnInit {
 
   cardContent = [
     {
-      title: 'Skills',
-      description:
-        'Mobile and Web app design, Reponsive web design, User-Centric Design, User Research and Interviews, Competitve Analysis, Synthesizing Insights, Advanced Prototyping, Wireframing, Usability Testing.',
-      image: '/assets/Home page assets/Skills image.svg',
-      imageDescription: 'Skills image',
+      quote:
+        '"Power resides where men believe it resides"',
+      image: '/assets/Fun page assets/Lord Varys of Lys.svg',
+      authorName: 'Lord Varys of Lys.',
     },
     {
-      title: 'Tools',
-      description:
-        'I use Figma and Adobe XD for Interface design, for User Interview and Testing, I use Maze. To fuel inspiration, I explore other live products (App or web) as well as platforms like Awwwards, Behance, Dribbble, and Google.',
-      image: '/assets/Home page assets/Tools image.svg',
-      imageDescription: 'Tools image',
+      quote:
+        '"We come in peace for all mankind"',
+      image: '/assets/Fun page assets/Neil Armstrong.svg',
+      authorName: 'Neil Armstrong',
     },
     {
-      title: 'Education',
-      description:
-        "I hold a bachelor's degree in Electrical Electronics Engineering, and Google UX Design Certificate from Coursera. Additionally, I've obtained UX and UI Design certificates from platforms such as Udemy and Udacity.",
-      image: '/assets/Home page assets/Edu icon.png',
-      imageDescription: 'Education image',
+      quote:
+       '"You have to fight and work hard to reach your dreams"',
+      image: '/assets/Fun page assets/Lionel Messi.svg',
+      authorName: 'Lionel Messi',
     },
   ];
 }

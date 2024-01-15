@@ -22,3 +22,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+// pt-96	padding-top: 24rem; /* 384px */
