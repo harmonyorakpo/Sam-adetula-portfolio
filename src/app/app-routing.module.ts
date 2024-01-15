@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { FunComponent } from './fun/fun.component';
 
 const routes: Routes = [
   {
@@ -21,9 +22,7 @@ const routes: Routes = [
   },
   {
     path: 'fun',
-    loadChildren: () => import('./fun/fun.module').then(
-      m => m.FunModule
-    )
+   component: FunComponent
   }
 ];
 

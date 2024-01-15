@@ -8,18 +8,25 @@
 <div class="px-32 grid grid-cols-3 gap-x-6 mx-auto mb-56">
   @for (content of cardContent; track content.description){
 
-  <div class="flex flex-col overflow-hidden cards relative px-9 pb-6 pt-12">
-    <span class="mb-12">
-      <img src={{content.image}} alt={{content.imageDescription}} />
-    </span>
-    <span class="text-3xl font-semibold mb-3">{{content.title}}</span>
-    
-    <span class="text-md tracking-normal leading-relaxed"
-    >{{content.description}}.</span
-    >
-    <div class="card-effect blur-4xl z-96 absolute w-32 h-32"></div>
+  <div class="overflow-hidden cards relative px-9 pb-6 pt-12">
+    <div class="flex flex-col  relative z-[1000]">
+
+      <span class="mb-12">
+        <img src="{{ content.image }}" alt="{{ content.imageDescription }}" />
+      </span>
+      <span class="text-3xl font-semibold mb-3">{{ content.title }}</span>
+  
+      <span class="text-md tracking-normal leading-relaxed"
+        >{{ content.description }}.</span
+      >
+    </div>
+
+
+    <div class="card-effect blur-4xl absolute w-32 h-32"></div>
   </div>
   } @empty {
   <span>The list is empty</span>
   }
 </div>
+
+

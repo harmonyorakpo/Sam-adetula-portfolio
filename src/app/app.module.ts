@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
+import { FunModule } from './fun/fun.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeModule } from './home/home.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    FunModule
   ],
   providers: [
     provideClientHydration()

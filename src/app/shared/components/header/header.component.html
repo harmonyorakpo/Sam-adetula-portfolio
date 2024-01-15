@@ -1,13 +1,14 @@
 <div
-  class="flex justify-between items-center header-bg-color pt-4 pb-2 px-32 fixed top-0 left-0 right-0 z-[1000]"
+  class="flex justify-between items-center header-bg-color pt-4 pb-2 px-32 fixed top-0 left-0 right-0 z-[100000]"
 >
   <div class="w-24 hover:cursor-pointer">
     <img src="/assets/General assets/Logo.svg" alt="logo" />
   </div>
 
   <div class="nav-text flex gap-x-16">
-    <span class="nav-hover"> Home </span>
-    <span class="nav-hover">Work</span>
-    <span class="nav-hover">Fun</span>
+    <a class="nav-hover" (click)="homeRoute()" routerLinkActive="active-link">
+      Home
+    </a>
+    <a class="nav-hover" (click)="workRoute()" routerLinkActive="active-link">Work</a>
+    <a class="nav-hover" (click)="funRoute()" routerLinkActive="active-link">Fun</a>
   </div>
-</div>

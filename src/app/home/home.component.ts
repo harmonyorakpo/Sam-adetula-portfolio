@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit {
       title: 'Education',
       description:
         "I hold a bachelor's degree in Electrical Electronics Engineering, and Google UX Design Certificate from Coursera. Additionally, I've obtained UX and UI Design certificates from platforms such as Udemy and Udacity.",
-      image: '/assets/Home page assets/Education image.svg',
+      image: '/assets/Home page assets/Edu icon.png',
       imageDescription: 'Education image',
     },
   ];
