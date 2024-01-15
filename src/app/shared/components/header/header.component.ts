@@ -11,15 +11,4 @@ constructor(private router: Router, private route: ActivatedRoute){
 
 }
 
-homeRoute(){
-  this.router.navigate(['/home'])
-}
-
-workRoute(){
-  this.router.navigate(['/work'])
-}
-
-funRoute(){
-  this.router.navigate(['/fun'])
-}
 }

@@ -23,6 +23,19 @@ body {
   background-color: #080808;
   color: #fff;
 
+  &::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+    // width: 3px;
+  }
+
+  // &::-webkit-scrollbar-track{
+  //   @apply bg-gray-400;
+  // }
+
+  // &::-webkit-scrollbar-thumb{
+  //   @apply bg-black;
+  // }
+
   .header-bg-color {
     background-color: rgba(8, 8, 8, 0.2);
     backdrop-filter: blur(50px);
@@ -60,6 +73,3 @@ body {
 
 }
 
-body::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar */
-}

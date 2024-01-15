@@ -1,9 +1,8 @@
-
-
 .nav-hover {
   @apply hover:cursor-pointer hover:font-semibold hover:text-white;
 }
 
-.active-link{
-  @apply focus:font-semibold focus:text-white active:font-semibold active:text-white;
+.active-link {
+  font-weight: 600;
+  color: white;
 }

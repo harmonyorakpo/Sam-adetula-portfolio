@@ -24,7 +24,7 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
     FreelanceProductSummaryComponent,
     HeroSectionComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   exports: [
     HeaderComponent,
     FooterComponent,
