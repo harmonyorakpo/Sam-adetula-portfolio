@@ -1,6 +1,61 @@
+<app-hero-section
+  [header]="headerText"
+  [headerDescription]="headerDesc"
+  [heroImage]="headerImage"
+  [heroImageDesc]="headerImageDescription"
+></app-hero-section>
 
-<router-outlet></router-outlet>
-<app-header></app-header>
+<div class="px-32 grid grid-cols-3 mb-56">
+  <div class="cards overflow-hidden">
+    <div class="bg-whiteCard px-8 overflow-hidden h-100">
+      <span
+        ><img
+          src="/assets/Work page assets/Swwipe assets/hero mock up 1.png"
+          alt="swwipe mockup"
+      /></span>
+    </div>
+    <div class="flex flex-col px-6 py-12">
+      <span class="font-bold text-3xl mb-6">Swwipe</span>
+      <div class="flex gap-x-2 mb-5">
+        <div
+          class="border-custom px-4 py-1 rounded-lg bg-cardBorder border-white flex justify-center items-center font-medium text-xs"
+        >
+          Fintech
+        </div>
 
-<app-back-button></app-back-button>
-<app-footer></app-footer>
+        <div
+          class="border-custom px-4 py-1 rounded-lg bg-cardBorder border-white font-medium flex justify-center items-center text-xs"
+        >
+          Mobile App, POS & Web Design
+        </div>
+      </div>
+      <!-- App and playstore starts here  -->
+      <div class="flex gap-x-2 mb-3">
+        <div class="flex items-center justify-center gap-x-2 border-custom rounded-lg border-white px-4 py-2 cursor-pointer">
+          <span
+            ><img
+              src="/assets/Work page assets/Swwipe assets/Apple icon.svg"
+              alt="Apple logo"
+          /></span>
+          <div class="flex flex-col">
+            <span class="text-ss">Available on</span>
+            <span class="text-xs font-medium">App Store</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-x-2 border-custom rounded-lg border-white px-4 py-2 cursor-pointer">
+          <span
+            ><img
+              src="/assets/Work page assets/Swwipe assets/play store.svg"
+              alt="playstore logo"
+          /></span>
+          <div class="flex flex-col">
+            <span class="text-ss">Available on</span>
+            <span class="text-xs font-medium">Playstore Store</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

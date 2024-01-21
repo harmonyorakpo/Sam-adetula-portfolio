@@ -4,13 +4,19 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
+        98: "25rem",
         100: "26rem",
         114: "30rem",
         128: "32rem",
         136: "34rem",
       },
+      fontSize: {
+        'xxs': '0.35rem',
+        'ss': '0.65rem'
+      },
       colors: {
         cardBorder: "#141414",
+        whiteCard: "#F7F5FF",
         sunEffect: "#FFAD0F"
       },
       blur: {
@@ -23,4 +29,4 @@ module.exports = {
   plugins: [],
 };
 
-// pt-96	padding-top: 24rem; /* 384px */
+// h-96	height: 24rem; /* 384px */
